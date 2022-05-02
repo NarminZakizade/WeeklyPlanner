@@ -1,0 +1,11 @@
+.dayText{
+  font-size: x-small;
+  text-align: center;
+  margin:0;
+}
+
+.textarea{
+  /* width: 600px; */
+  height:50px;
+  width:95%;
+}

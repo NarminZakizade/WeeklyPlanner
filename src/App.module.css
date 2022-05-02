@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+.title{
+    font-family: 'Ms Madi', cursive;
+    font-size: 40px;
+    margin:0;
+}
+.floatChild{
+    float:left;
+    width:50%;
+}
+.left{
+    width:100%;
+}
+.upper{
+    float:left;
+    width: 90%;
+    /* width: 80%; */
+}
+.lower{
+    float:left;
+    clear:left;
+    width: 90%;
+}
+.week{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(31, 24, 24);
+    outline: none;
+}
+@media (max-width:1000px){
+    .floatChild{
+        width:50%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .floatChild{
+        width:100%;
+    }
+}
